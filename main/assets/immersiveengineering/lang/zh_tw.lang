@@ -152,8 +152,8 @@ tile.immersiveengineering.aluminum_scaffolding_stairs1.name=鋁腳手架樓梯
 tile.immersiveengineering.aluminum_scaffolding_stairs2.name=鋁腳手架樓梯
 
 tile.immersiveengineering.metal_ladder.normal.name=金屬梯子
-tile.immersiveengineering.metal_ladder.covered_steel.name=安全梯
-tile.immersiveengineering.metal_ladder.covered_aluminum.name=安全梯
+tile.immersiveengineering.metal_ladder.covered_steel.name=鋼安全梯
+tile.immersiveengineering.metal_ladder.covered_aluminum.name=鋁安全梯
 
 tile.immersiveengineering.connector.connector_lv.name=低壓接線器
 tile.immersiveengineering.connector.relay_lv.name=低壓繼電器
