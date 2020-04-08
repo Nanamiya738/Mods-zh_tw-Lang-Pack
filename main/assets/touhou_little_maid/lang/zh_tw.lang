@@ -1,11 +1,22 @@
 #Touhou Little Mod語言文件
-item_group.touhou_little_maid.name=東方小女僕
+item_group.touhou_little_maid.main.name=東方小女僕丨主體
+item_group.touhou_little_maid.garage_kit.name=東方女僕丨手辦
+item_group.touhou_little_maid.chair.name=東方女僕丨坐墊
+item_group.touhou_little_maid.spell_card.name=女僕丨符卡
+item_group.touhou_little_maid.model_coupon.name=女僕丨女僕模型券
 
 # 實體
 entity.touhou_little_maid.maid.name=小女僕
 entity.touhou_little_maid.danmaku.name=彈幕
 entity.touhou_little_maid.marisa_broom.name=魔理沙的掃帚
 entity.touhou_little_maid.chair.name=椅子
+entity.touhou_little_maid.box.name=蛋糕盒
+entity.touhou_little_maid.rinnosuke.name=森近霖之助
+entity.touhou_little_maid.fairy.name=妖精女僕
+entity.touhou_little_maid.suitcase.name=拉杆箱
+entity.touhou_little_maid.backpack.name=背包
+entity.touhou_little_maid.trolley_audio.name=便攜式音響
+entity.touhou_little_maid.maid_vehicle.name=女僕載具
 entity.Villager.touhou_little_maid.store_owner_of_kourindou.name=香霖堂店主
 
 #項目
@@ -16,10 +27,43 @@ item.touhou_little_maid.marisa_broom.name=魔理沙的掃帚
 item.touhou_little_maid.camera.name=文文的相機
 item.touhou_little_maid.photo.name=照片
 item.touhou_little_maid.chair.name=椅子
+item.touhou_little_maid.hata_sasimono.name=旗幟物
+item.touhou_little_maid.album.name=相簿
+item.touhou_little_maid.maid_beacon.name=神社庭燈
+item.touhou_little_maid.spell_card.name=符卡
+item.touhou_little_maid.debug_danmaku.name=調適弹幕工具
+item.touhou_little_maid.npc_maid_tool.name=NPC 女僕工具
+item.touhou_little_maid.substitute_jizo.name=替身地藏
+item.touhou_little_maid.maid_model_coupon.name=女僕模型券
+item.touhou_little_maid.gashapon.name=扭蛋
+item.touhou_little_maid.gashapon_coin.name=轉蛋幣
+item.touhou_little_maid.maid_backpack.name=女僕背包
+item.touhou_little_maid.suitcase.name=行李箱
+item.touhou_little_maid.trolley_audio.name=便攜式音響
+item.touhou_little_maid.cat_cart.name=猫車
+item.touhou_little_maid.wheel_chair.name=輪椅
+item.touhou_little_maid.rickshaw.name=人力車
 
 #Block
 tile.touhou_little_maid.garage_kit.name=手辦
 tile.touhou_little_maid.grid.name=女僕交互面板
+tile.touhou_little_maid.altar.name=祭壇
+tile.touhou_little_maid.tombstone.name=墓碑
+tile.touhou_little_maid.gashapon_machines.name=扭蛋機
+
+# Command
+commands.touhou_little_maid.hata.usage=§c用法：/hata <reload>
+commands.touhou_little_maid.hata.reload=已经重载所有的旗幟物材質
+commands.touhou_little_maid.main.usage=§c用法：/touhou_little_maid <power|maid_num> <get|set|add|min> <玩家> [数值]
+commands.touhou_little_maid.main.power.info=當前 Power 數：%.2f
+commands.touhou_little_maid.main.maid_num.info=當前女僕數量：%d
+commands.touhou_little_maid.spell_card.usage=§c用法：/spell_card <reload>
+commands.touhou_little_maid.spell_card.reload=已经重載所有的符卡
+commands.touhou_little_maid.draw_coupon.usage=§c用法：/draw_coupon <reload>
+commands.touhou_little_maid.draw_coupon.reload=已经重载所有的抽卡数据
+commands.touhou_little_maid.maid_res.usage=§c用法：/maid_res <reload>
+commands.touhou_little_maid.maid_res.warning=§c提醒：這條指令可能無法重载某些資源
+commands.touhou_little_maid.maid_res.time=重載耗時：%.3f ms
 
 #Tooltips
 tooltips.touhou_little_maid.hakurei_gohei.desc=模式：%d
@@ -37,7 +81,24 @@ tooltips.touhou_little_maid.broom.destroy.desc= Shift左擊破壞它。
 tooltips.touhou_little_maid.chair.place.desc=右擊方塊頂部進行放置。
 tooltips.touhou_little_maid.chair.destroy.desc= Shift左擊破壞它。
 tooltips.touhou_little_maid.chair.gui.desc= Shift右擊打開皮膚界面。
-
+tooltips.touhou_little_maid.grid.input.true=输入
+tooltips.touhou_little_maid.grid.input.false=输出
+tooltips.touhou_little_maid.grid.blacklist.true=黑名單
+tooltips.touhou_little_maid.grid.blacklist.false=白名單
+tooltips.touhou_little_maid.hata_sasimono.desc=右擊女僕應用上旗幟物。
+tooltips.touhou_little_maid.album.desc=存儲情况：%d/%d
+tooltips.touhou_little_maid.maid_beacon.desc=存儲P點：%s
+tooltips.touhou_little_maid.maid_spawn_egg.desc.1=該物品無法合成，你需要構築祭壇来生成女僕。
+tooltips.touhou_little_maid.maid_spawn_egg.desc.2=你可以查詢 JEI 來獲取具體的合成表。
+tooltips.touhou_little_maid.spell_card.author=作者：%s
+tooltips.touhou_little_maid.spell_card.version=版本：%s
+tooltips.touhou_little_maid.spell_card.cooldown=符卡冷却時間：%d ticks
+tooltips.touhou_little_maid.debug_danmaku.desc=僅用於调试
+tooltips.touhou_little_maid.substitute_jizo.desc=右擊女僕使其無敵，僅限創造模式
+tooltips.touhou_little_maid.maid_model_coupon.desc=女僕模型：%s
+tooltips.touhou_little_maid.gashapon_machines.desc=通過扭蛋幣或綠寶石（默認）右擊抽扭蛋
+tooltips.touhou_little_maid.bauble.desc=§a[女僕飾品]
+tooltips.touhou_little_maid.bauble.usage=需要放置在女僕的飾品欄中
 
 # 信息
 message.touhou_little_maid.kappa_compass.write_success=坐標寫入成功！
@@ -48,6 +109,32 @@ message.touhou_little_maid.grid.blacklist.true=過濾模式：黑名單
 message.touhou_little_maid.grid.blacklist.false=過濾模式：白名單
 message.touhou_little_maid.photo.not_suitable_for_place_maid=這鬼地方沒法放置女僕。
 message.touhou_little_maid.photo.have_no_nbt_data=這鬼照片沒有NBT數據。
+message.touhou_little_maid.altar.not_enough_power=你的 P 點不足。
+message.touhou_little_maid.tombstone.place_fail=墓碑放置失败！
+message.touhou_little_maid.tombstone.on_block_activated=墓碑已经被收回！
+message.touhou_little_maid.missing_patchouli=[{"text":"[東方女僕] ","color":"green","bold":true},{"text":"點擊此處","color":"gold","underlined":true,"bold":false,"clickEvent":{"action":"open_url","value":"https://www.curseforge.com/minecraft/mc-mods/patchouli/files/all?filter-game-version=2020709689:6756"},"hoverEvent":{"action":"show_text","value":"https://www.curseforge.com/minecraft/mc-mods/patchouli"}},{"text":"安装帕秋莉模组来获取手册","color":"yellow","bold":false}]
+message.touhou_little_maid.java_version_old=[{"text":"[東方女僕] ","color":"green","bold":true},{"text":"你的 Java 8 版本過低，符卡無法正常加载，建議使用 60 及以上版本的 Java。","color":"yellow","bold":false}]
+message.touhou_little_maid.broom.message=只有創造模式玩家可以骑乘，但是你可以修改配置文件關閉此限制
+message.touhou_little_maid.debug_danmaku.type=當前類型：%s
+message.touhou_little_maid.owner_maid_num.can_not_add=你無法再馴服女僕，你已经达到了上限（%d/%d）
+message.touhou_little_maid.change_model.disabled=模型切換功能已被禁止
+message.touhou_little_maid.npc_maid_tool.not_maid_model=请將此 NPC 設置為女僕模型
+message.touhou_little_maid.maid_backpack.small=§b[小背包]
+message.touhou_little_maid.maid_backpack.middle=§a[中背包]
+message.touhou_little_maid.maid_backpack.big=§c[大背包]
+message.touhou_little_maid.maid_backpack.level_not_match=背包等级不匹配，需要 %s§r 但却是 %s§r。
+message.touhou_little_maid.maid_backpack.level_is_biggest=背包等级已经最大
+message.touhou_little_maid.resources_download.reload=重载资源信息中……
+message.touhou_little_maid.slashblade.position=拔刀剑位置已经修改！
+message.touhou_little_maid.maid_pos.clear=女僕坐标已清除！
+
+# Compass Mode
+compass.touhou_little_maid.mode.single_point=單點模式
+compass.touhou_little_maid.mode.multi_point_reentry=多點往返
+compass.touhou_little_maid.mode.multi_point_closure=多點閉合
+compass.touhou_little_maid.mode.set_range=設置範圍
+compass.touhou_little_maid.mode.none=無模式
+compass.touhou_little_maid.mode.home.disable=§4§lHome 模式未開啟
 
 #Info
 info.touhou_little_maid.maid.unset_pos=§6§l未設置坐標
@@ -61,6 +148,45 @@ config.touhou_little_maid.maid_config.maid_talk_interval=女僕發出聲音的�
 config.touhou_little_maid.maid_config.maid_pickup_sound_interval=女僕拾物的聲音間隔（拾取計數）
 config.touhou_little_maid.maid_config.maid_hurt_sound_interval=女僕受傷的聲音間隔（節拍）
 config.touhou_little_maid.maid_config.maid_always_show_hat=女僕總是顯示帽子
+config.touhou_little_maid.maid_config.enabled_tasks=女僕啟用的模式
+config.touhou_little_maid.maid_config.maid_cannot_change_model=禁止玩家改變女僕皮膚
+config.touhou_little_maid.maid_config.owner_max_maid_num=可馴服的最大女僕數
+
+# Vanilla Config
+config.touhou_little_maid.vanilla_config=原版相關配置
+config.touhou_little_maid.vanilla_config.change_xp_texture=改變經驗球材质
+config.touhou_little_maid.vanilla_config.change_slime_model=将史莱姆模型變為油库里
+config.touhou_little_maid.vanilla_config.change_totem_model=将不死圖騰模型變為命點
+
+# Mob Config
+config.touhou_little_maid.mob_config=怪物設置
+config.touhou_little_maid.mob_config.maid_fairy_power_point=女僕妖精 P 点
+config.touhou_little_maid.mob_config.maid_fairy_spawn_probability=女僕妖精生成權重
+config.touhou_little_maid.mob_config.rinnosuke_power_point=霖之助 P 点
+config.touhou_little_maid.mob_config.rinnosuke_spawn_probability=霖之助生成權重
+
+# Misc Config
+config.touhou_little_maid.misc_config=雜項配置
+config.touhou_little_maid.misc_config.shrine_lamp.effect_cost=神社庭燈效果消耗
+config.touhou_little_maid.misc_config.shrine_lamp.max_storage=神社庭燈最大存储
+config.touhou_little_maid.misc_config.player_death_loss_power_point=玩家死亡后的 P 點损失
+config.touhou_little_maid.misc_config.creative_player_can_ride_broom=只有創造模式玩家可以騎乘掃帚
+config.touhou_little_maid.misc_config.power_point_hud_x=P 點 X 位置
+config.touhou_little_maid.misc_config.power_point_hud_y=P 點 Y 位置
+config.touhou_little_maid.misc_config.override_npc_render=覆蓋 NPC 渲染
+config.touhou_little_maid.misc_config.chair_cannot_change_model=只有創造模式玩家能夠切換坐墊模型
+config.touhou_little_maid.misc_config.chair_cannot_be_destroied=只有創造模式玩家能夠破壞坐墊
+config.touhou_little_maid.misc_config.danmaku_affected_by_fluid=弹幕是否會被流體影響
+
+# Gashapon Config
+config.touhou_little_maid.gashapon_config=扭蛋配置
+config.touhou_little_maid.gashapon_config.purchase_gashapon_item=扭蛋購入的代幣
+config.touhou_little_maid.gashapon_config.purchase_gashapon_price=扭蛋購入的價格
+config.touhou_little_maid.gashapon_config.gashapon_weights_5=UR 等级扭蛋權重
+config.touhou_little_maid.gashapon_config.gashapon_weights_4=SSR 等级扭蛋權重
+config.touhou_little_maid.gashapon_config.gashapon_weights_3=SR 等级扭蛋權重
+config.touhou_little_maid.gashapon_config.gashapon_weights_2=R 等级扭蛋權重
+config.touhou_little_maid.gashapon_config.gashapon_weights_1=N 等级扭蛋權重
 
 #Danmaku類型
 danmaku_type.touhou_little_maid.pellet=點彈
@@ -72,6 +198,15 @@ danmaku_type.touhou_little_maid.heart=心彈
 danmaku_type.touhou_little_maid.star=星彈
 danmaku_type.touhou_little_maid.amulet=札彈
 danmaku_type.touhou_little_maid.orbs=環玉
+danmaku_type.touhou_little_maid.petal=米彈
+danmaku_type.touhou_little_maid.knife=刀彈
+danmaku_type.touhou_little_maid.master_spark=魔炮
+danmaku_type.touhou_little_maid.bullet=铳彈
+danmaku_type.touhou_little_maid.kunai=苦無彈
+danmaku_type.touhou_little_maid.raindrop=滴彈
+danmaku_type.touhou_little_maid.arrowhead=鳞彈
+danmaku_type.touhou_little_maid.butterfly=蝶彈
+danmaku_type.touhou_little_maid.glowey_ball=光玉
 
 #任務
 task.touhou_little_maid.idle=空閒
@@ -79,8 +214,14 @@ task.touhou_little_maid.attack=攻擊
 task.touhou_little_maid.ranged_attack=弓兵
 task.touhou_little_maid.danmaku_attack=彈幕攻擊
 task.touhou_little_maid.farm=農場
+task.touhou_little_maid.sugar_cane=甘蔗
+task.touhou_little_maid.melon=瓜類
+task.touhou_little_maid.cocoa=可可
+task.touhou_little_maid.grass=花草
+task.touhou_little_maid.snow=除雪
 task.touhou_little_maid.feed=餵食
 task.touhou_little_maid.shears=剪刀
+task.touhou_little_maid.milk=牛奶
 task.touhou_little_maid.torch=火把
 task.touhou_little_maid.feed_animal=繁殖動物
 
@@ -118,11 +259,58 @@ gui.touhou_little_maid.skin_details.apply_data=應用數據
 gui.touhou_little_maid.skin_details.mounted_height=高度
 gui.touhou_little_maid.skin_details.show_character=顯示參考角色
 gui.touhou_little_maid.skin_details.mounted_height.button.tooltips= Shift點擊能夠進行十倍修改
+gui.touhou_little_maid.skin_details.set_gravity.button.false=重力
+gui.touhou_little_maid.skin_details.set_gravity.button.true=浮空
+gui.touhou_little_maid.skin_details.loaded_file=已加载动画文件：%s
+gui.touhou_little_maid.skin_details.load_animation_file=加載调试性動畫文件
+gui.touhou_little_maid.skin_details.file_alteration.enable=文件監控：開
+gui.touhou_little_maid.skin_details.file_alteration.disable=文件監控：關
+gui.touhou_little_maid.skin_details.reset=重置動畫
+gui.touhou_little_maid.hata_select.apply=應用材質
+gui.touhou_little_maid.hata_select.close=關閉
+gui.touhou_little_maid.hata_select.disassembly=拆卸旗幟物
+gui.touhou_little_maid.hata_select.display.true=顯示旗幟物
+gui.touhou_little_maid.hata_select.display.false=隱藏旗幟物
+gui.touhou_little_maid.hata_select.scroll=滾動滑鼠滾輪切換樣式
+gui.touhou_little_maid.maid_beacon.player_power=玩家P點：%s
+gui.touhou_little_maid.maid_beacon.storage_power=存储P點：%s
+gui.touhou_little_maid.maid_beacon.cost_power=消耗P點：%s/h
+gui.touhou_little_maid.maid_beacon.add_one=存入一點
+gui.touhou_little_maid.maid_beacon.add_all=存入全部
+gui.touhou_little_maid.maid_beacon.min_one=取出一點
+gui.touhou_little_maid.maid_beacon.min_all=取出所有
+gui.touhou_little_maid.resources_download.not_download=未下载
+gui.touhou_little_maid.resources_download.downloaded=已下载
+gui.touhou_little_maid.resources_download.downloading=下载中
+gui.touhou_little_maid.resources_download.need_update=需更新
+gui.touhou_little_maid.resources_download.downloaded.tip=** 下载後请記得加載資源包 **
+gui.touhou_little_maid.resources_download.author=作者：%s
+gui.touhou_little_maid.resources_download.author.delimiter=，
+gui.touhou_little_maid.resources_download.file_size=大小：%s
+gui.touhou_little_maid.resources_download.upload_time=上傳時間：%s
+gui.touhou_little_maid.resources_download.license=協議：%s
+gui.touhou_little_maid.resources_download.fail.1=網路好像出了问题……
+gui.touhou_little_maid.resources_download.fail.2=请點擊左上角按钮，並等待幾秒鐘
+gui.touhou_little_maid.resources_download.reload=重載
+gui.touhou_little_maid.inventory.scroll.desc=请滾動滑鼠滾輪進行物品欄滾動。
+gui.touhou_little_maid.animation_choose.file_filter.description=JavaScript 文件
+gui.touhou_little_maid.compass.close=關閉
+
+gui.touhou_little_maid.skin.text.version=版本：%s
+gui.touhou_little_maid.skin.text.date=日期：%s
+gui.touhou_little_maid.skin.tooltips.show_details=Shift 點擊打開詳情介面
 
 #Skin Gui
 gui.touhou_little_maid.skin.text.author=作者：%S
 gui.touhou_little_maid.skin.text.version=版本：%S
 gui.touhou_little_maid.skin.text.date=日期：%S
+
+# Sound Info Gui
+gui.touhou_little_maid.sound_info.title=語音包列表
+gui.touhou_little_maid.sound_info.url.desc=雙擊打開
+gui.touhou_little_maid.sound_info.play.desc=雙擊播放語音
+gui.touhou_little_maid.sound_info.sound.name=名稱
+gui.touhou_little_maid.sound_info.sound.count=聲音數
 
 #模型包
 pack.touhou_little_maid.maid.name=東方項目模型
@@ -173,6 +361,56 @@ model.touhou_little_maid.reiuji_utsuho.name=靈烏路空
 model.touhou_little_maid.kaenbyou_rin.name=火焰貓燐
 model.touhou_little_maid.rumia.name=露米婭
 model.touhou_little_maid.matara_okina.name=摩多羅隱岐奈
+model.touhou_little_maid.mystia_lorelei.name=米斯蒂婭·蘿蕾拉
+model.touhou_little_maid.kitcho_yachie.name=吉吊八千慧
+model.touhou_little_maid.saigyouji_yuyuko.name=西行寺幽幽子
+model.touhou_little_maid.yorigami_shion.name=依神紫苑
+model.touhou_little_maid.kisin_sagume.name=稀神探女
+model.touhou_little_maid.yukari_yakumo.name=八雲紫
+model.touhou_little_maid.tewi_inaba.name=因幡帝
+model.touhou_little_maid.wriggle_nightbug.name=莉格露·奈特巴格
+model.touhou_little_maid.keine_kamishirasawa.name=上白泽慧音
+model.touhou_little_maid.yagokoro_eirin.name=八意永琳
+model.touhou_little_maid.mima.name=魅魔
+model.touhou_little_maid.kazami_yuka.name=風見幽香
+model.touhou_little_maid.onozuka_komachi.name=小野塚小町
+model.touhou_little_maid.shikieiki_yamaxanadu.name=四季映姬·亞瑪薩那度
+model.touhou_little_maid.syameimaru_aya.name=射命丸文
+model.touhou_little_maid.medicine_melancholy.name=梅蒂欣·梅蘭可莉
+model.touhou_little_maid.aki_sizuha.name=秋静葉
+model.touhou_little_maid.kagiyama_hina.name=鍵山雛
+model.touhou_little_maid.kurodani_yamame.name=黑谷山女
+model.touhou_little_maid.hoshiguma_yugi.name=星熊勇儀
+model.touhou_little_maid.minoriko_aki.name=秋穰子
+model.touhou_little_maid.mizuhashi_parsee.name=水橋帕露西
+model.touhou_little_maid.nazrin.name=娜茲玲
+model.touhou_little_maid.murasa_minamitsu.name=村纱水蜜
+model.touhou_little_maid.tatara_kogasa.name=多多良小傘
+model.touhou_little_maid.houjuu_nue.name=封獸鵺
+model.touhou_little_maid.hijiri_byakuren.name=聖白莲
+model.touhou_little_maid.kumoi_ichirin.name=雲居一輪
+model.touhou_little_maid.toramaru_shou.name=寅丸星
+model.touhou_little_maid.toyosatomimi_no_miko.name=豐聰耳神子
+model.touhou_little_maid.kaku_seiga.name=霍青娥
+model.touhou_little_maid.mononobe_no_futo.name=物部布都
+model.touhou_little_maid.hutatsuiwa_mamizou.name=二岩猯藏
+model.touhou_little_maid.miyako_yoshika.name=宫古芳香
+model.touhou_little_maid.kasodani_kyouko.name=幽谷響子
+model.touhou_little_maid.soga_no_toziko.name=蘇我屠自古
+model.touhou_little_maid.imaizumi_kagerou.name=今泉影狼
+model.touhou_little_maid.kijin_seija.name=鬼人正邪
+model.touhou_little_maid.sukuna_shinmyoumaru.name=少名针妙丸
+model.touhou_little_maid.horikawa_raiko.name=堀川雷鼓
+model.touhou_little_maid.haniyasushin_keiki.name=埴安神袿姬
+model.touhou_little_maid.yatadera_narumi.name=矢田寺成美
+model.touhou_little_maid.seiran.name=清蘭
+model.touhou_little_maid.junko.name=纯狐
+model.touhou_little_maid.ringo.name=铃瑚
+model.touhou_little_maid.tsukumo_yatsuhashi.name=九十九八橋
+model.touhou_little_maid.tsukumo_benben.name=九十九弁弁
+model.touhou_little_maid.hecatia_lapislazuli.name=赫卡提雅·拉碧斯拉祖利
+model.touhou_little_maid.miyoi_okunoda.name=奥野田美宵
+model.touhou_little_maid.yumemi_okazaki.name=岡崎夢美
 
 model.touhou_little_maid.hakurei_reimu.desc=§7樂園的巫女
 model.touhou_little_maid.yakumo_ran.desc=§7隙間妖怪的式神
@@ -217,6 +455,56 @@ model.touhou_little_maid.reiuji_utsuho.desc=§7難以駕馭的神之火
 model.touhou_little_maid.kaenbyou_rin.desc=§7地獄的輪禍
 model.touhou_little_maid.rumia.desc=§7宵暗的妖怪
 model.touhou_little_maid.matara_okina.desc=§7究極的絕對秘神
+model.touhou_little_maid.mystia_lorelei.desc=§7夜雀妖怪
+model.touhou_little_maid.kitcho_yachie.desc=§7鬼杰組組長
+model.touhou_little_maid.saigyouji_yuyuko.desc=§7華胥的亡靈
+model.touhou_little_maid.yorigami_shion.desc=§7最凶最恶的雙子之姐
+model.touhou_little_maid.kisin_sagume.desc=§7招来口舌之禍的女神
+model.touhou_little_maid.yukari_yakumo.desc=§7境界的妖怪
+model.touhou_little_maid.tewi_inaba.desc=§7幸運的白兔
+model.touhou_little_maid.wriggle_nightbug.desc=§7暗中蠢動的光蟲
+model.touhou_little_maid.keine_kamishirasawa.desc=§7吞食歷史的半獸
+model.touhou_little_maid.yagokoro_eirin.desc=§7月之頭腦
+model.touhou_little_maid.mima.desc=§7惡靈小姐
+model.touhou_little_maid.kazami_yuka.desc=§7四季的鲜花之主
+model.touhou_little_maid.onozuka_komachi.desc=§7三途河的引航人
+model.touhou_little_maid.shikieiki_yamaxanadu.desc=§7樂園的最高裁判長
+model.touhou_little_maid.syameimaru_aya.desc=§7傳統的幻想记者
+model.touhou_little_maid.medicine_melancholy.desc=§7小小的甜蜜毒藥
+model.touhou_little_maid.aki_sizuha.desc=§7寂寞與终焉的象征
+model.touhou_little_maid.kagiyama_hina.desc=§7秘神流雛
+model.touhou_little_maid.kurodani_yamame.desc=§7昏暗洞窟中明亮的網
+model.touhou_little_maid.hoshiguma_yugi.desc=§7人所談論的怪力乱神
+model.touhou_little_maid.minoriko_aki.desc=§7豐裕與收成的象徵
+model.touhou_little_maid.mizuhashi_parsee.desc=§7地殼下的嫉妒心
+model.touhou_little_maid.nazrin.desc=§7探寶的小小大将
+model.touhou_little_maid.murasa_minamitsu.desc=§7水難事故的念缚靈
+model.touhou_little_maid.tatara_kogasa.desc=§7愉快的遗忘之傘
+model.touhou_little_maid.houjuu_nue.desc=§7未確認幻想飛行少女
+model.touhou_little_maid.hijiri_byakuren.desc=§7被封印的大魔法师
+model.touhou_little_maid.kumoi_ichirin.desc=§7守護與被守護的大轮
+model.touhou_little_maid.toramaru_shou.desc=§7毘沙门天的弟子
+model.touhou_little_maid.toyosatomimi_no_miko.desc=§7聖德道士
+model.touhou_little_maid.kaku_seiga.desc=§7穿牆的邪仙
+model.touhou_little_maid.mononobe_no_futo.desc=§7古代日本的屍解仙
+model.touhou_little_maid.hutatsuiwa_mamizou.desc=§7狸猫怪 十變化
+model.touhou_little_maid.miyako_yoshika.desc=§7忠誠的屍體
+model.touhou_little_maid.kasodani_kyouko.desc=§7誦經的山彦
+model.touhou_little_maid.soga_no_toziko.desc=§7神明後裔的亡靈
+model.touhou_little_maid.imaizumi_kagerou.desc=§7竹林的狼人
+model.touhou_little_maid.kijin_seija.desc=§7逆襲的天邪鬼
+model.touhou_little_maid.sukuna_shinmyoumaru.desc=§7小人的後裔
+model.touhou_little_maid.horikawa_raiko.desc=§7梦幻的打擊樂手
+model.touhou_little_maid.haniyasushin_keiki.desc=§7孤立無援造就的造形神
+model.touhou_little_maid.yatadera_narumi.desc=§7垂迹於森林的魔法地藏
+model.touhou_little_maid.seiran.desc=§7淺蔥色的 Eagle Rabbit
+model.touhou_little_maid.junko.desc=§7-
+model.touhou_little_maid.ringo.desc=§7橘色的 Eagle Rabbit
+model.touhou_little_maid.tsukumo_yatsuhashi.desc=§7古舊的琴的付丧神
+model.touhou_little_maid.tsukumo_benben.desc=§7古舊琵琶的付喪神
+model.touhou_little_maid.hecatia_lapislazuli.desc=§7地域的女神
+model.touhou_little_maid.miyoi_okunoda.desc=§7夢幻酒家「鲵吞亭」的店花
+model.touhou_little_maid.yumemi_okazaki.desc=§7夢幻傳說
 
 model.touhou_little_maid.cushion.name=坐墊
 model.touhou_little_maid.wheel_chair.name=輪椅
@@ -230,6 +518,33 @@ model.touhou_little_maid.tall_stool.name=高腳凳
 model.touhou_little_maid.low_stool.name=低腳凳
 model.touhou_little_maid.barbecue_booth.name=燒烤攤
 model.touhou_little_maid.barbecue_booth_2.name=燒烤攤
+model.touhou_little_maid.barbecue_booth_2.name=燒烤攤
+model.touhou_little_maid.long_stool.name=長板凳
+model.touhou_little_maid.square_table.name=八仙桌
+model.touhou_little_maid.mahjong_table.name=麻將桌
+model.touhou_little_maid.beach_chair.name=沙灘椅
+model.touhou_little_maid.parasol.name=遮陽傘
+model.touhou_little_maid.water_wheel.name=水車
+model.touhou_little_maid.saisen_bako.name=賽錢箱
+model.touhou_little_maid.well.name=鹿威
+model.touhou_little_maid.torii.name=鳥居
+model.touhou_little_maid.ema.name=繪馬牆
+model.touhou_little_maid.anti_collision_bucket.name=防撞桶
+model.touhou_little_maid.park_bench.name=公園長椅
+model.touhou_little_maid.rinnosuke_children_toys.name=霖之助牌兒童搖搖樂
+model.touhou_little_maid.moto.name=摩托車
+model.touhou_little_maid.bowl.name=針妙丸的碗
+
+# Sound Info
+pack.touhou_little_maid.sound.name=默認音效
+pack.touhou_little_maid.sound.desc=使用的音效由 あみたろの声素材工房 提供
+
+# Spell Card
+spell_card.touhou_little_maid:night_sign.night_bird.name=夜符「Night Bird」
+spell_card.touhou_little_maid:metal_sign.metal_fatigue.name=金符「Metal Fatigue」
+spell_card.touhou_little_maid:magic_sign.milky_way.name=魔符「Milky Way」
+spell_card.touhou_little_maid:border_sign.boundary_between_wave_and_particle.name=境符「波與粒的境界」
+spell_card.touhou_little_maid:border_sign.boundary_between_wave_and_particle_3d.name=境符「波與粒的境界」3D
 
 #字幕
 subtitle.touhou_little_maid.maid.mode.idle=女僕：空閒
@@ -259,4 +574,22 @@ subtitle.touhou_little_maid.item.camera_use=相機咔噠聲
 
 #HWYLA＆The One Probe
 hwyla.touhou_little_maid.entity_maid.task=當前模式：%s的
+hwyla.touhou_little_maid.entity_maid.has_sasimono=擁有旗幟物
+hwyla.touhou_little_maid.entity_maid.invulnerable=無敵
+hwyla.touhou_little_maid.tombstone.maid_owner=女僕主人：%s
+top.touhou_little_maid.entity_maid.has_sasimono=擁有旗幟物
+top.touhou_little_maid.entity_maid.invulnerable=無敵
 top.touhou_little_maid.entity_maid.task=當前模式：
+top.touhou_little_maid.tombstone.maid_owner=女僕主人：%s
+
+# JEI
+jei.touhou_little_maid.altar_craft.title=祭壇合成
+jei.touhou_little_maid.altar_craft.result=效果：%s
+jei.touhou_little_maid.altar_craft.item_craft.result=合成物品
+jei.touhou_little_maid.altar_craft.spawn_maid.result=生成新的女僕
+jei.touhou_little_maid.altar_craft.reborn_maid.result=從手辦中復活女僕
+jei.touhou_little_maid.altar_craft.spawn_light_bolt.result=生成閃電
+
+# Patchouli
+patchouli.touhou_little_maid.book.name=記憶中的幻想鄉
+patchouli.touhou_little_maid.book.landing_text=一個與女僕和東方Project 有關的模组。$(br2)感谢雪尼在代碼方面的幫助。$(br)感谢琥珀酸、帕金伊、天顶乌、天幂、Paulzzh、尤里的猫以及其他美工制作了如此優秀的模型和材質。$(br)感谢 Little Maid Mob 的作者 Verclene。
