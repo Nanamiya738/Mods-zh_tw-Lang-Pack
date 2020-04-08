@@ -94,7 +94,7 @@ tektopia.subtitle.earth_blast=地球爆炸
 tektopia.subtitle.flute_tavern_1=吹短笛
 tektopia.subtitle.flute_short_3=吹短笛
 tektopia.subtitle.flute_short_2=吹短笛
-tektopia.subtitle.earth_rumble=地球隆隆聲
+tektopia.subtitle.earth_rumble=地殼隆隆聲
 
 # UI
 ui.villager.health=生命值
@@ -138,9 +138,9 @@ ai.filter.cook_mutton=烤羊肉
 ai.filter.cook_potato=烤馬鈴薯
 
 ai.filter.teach_school=教學學校
-ai.filter.smelt_charcoal=聞到木炭
-ai.filter.smelt_iron=聞到鐵錠
-ai.filter.smelt_gold=聞到金錠
+ai.filter.smelt_charcoal=熔煉木炭
+ai.filter.smelt_iron=熔煉鐵錠
+ai.filter.smelt_gold=熔煉金錠
 ai.filter.craft_iron_axe=製作:鐵斧
 ai.filter.craft_iron_pickaxe=製作:鐵鎬
 ai.filter.craft_iron_sword=製作:鐵劍
@@ -148,7 +148,7 @@ ai.filter.craft_iron_hoe=製作:鐵鋤
 ai.filter.craft_bucket=製作:鐵桶
 ai.filter.craft_shears=製作:剪刀
 ai.filter.craft_iron_boots=製作:鐵製靴子
-ai.filter.craft_iron_chestplate=製作:鐵製
+ai.filter.craft_iron_chestplate=製作:鐵製胸甲
 ai.filter.craft_iron_leggings=製作:鐵製護腿
 ai.filter.craft_iron_helmet=製作:鐵製頭盔
 ai.filter.craft_diamond_sword=製作:鑽石劍
@@ -166,6 +166,7 @@ ai.filter.craft_leather_chestplate=製作:皮革上衣
 ai.filter.craft_leather_leggings=製作:皮革護腿
 ai.filter.craft_leather_helmet=製作:皮革頭盔
 
+ai.filter.craft_golden_apple=製作:金蘋果
 ai.filter.craft_golden_carrot=製作:金胡蘿蔔
 ai.filter.craft_bread=製作:麵包
 ai.filter.craft_beetroot_soup=製作:甜菜湯
@@ -283,8 +284,7 @@ entity.Blacksmith.name=鐵匠
 entity.Butcher.name=屠夫
 entity.Child.name=孩童
 entity.Chef.name=廚師
-entity.牧師.name=牧師
-entity.牧師.name=牧師
+entity.Clerics.name=牧師
 entity.Druid.name=吸血鬼-德魯伊
 entity.Enchanter.name=附魔師
 entity.Farmer.name=農夫
@@ -298,7 +298,7 @@ entity.Nomad.name=游牧人
 entity.Tradesman.name=轉職商人
 
 entity.necromancer=死靈
-entity.死靈.name=死靈
+entity.necromancer.name=死靈
 
 title.captain=隊長
 
