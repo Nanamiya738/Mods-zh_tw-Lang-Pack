@@ -1,13 +1,13 @@
 potion.effect.dislocation=錯位藥水
-lingering_potion.effect.dislocation=滯留 型錯位藥水
-splash_potion.effect.dislocation=錯位藥水
+lingering_potion.effect.dislocation=滯留 錯位藥水
+splash_potion.effect.dislocation=飛濺錯位藥水
 tipped_arrow.effect.dislocation=錯位之箭
 effect.dislocation=錯位
 funny.effect.dislocation=薛定諤的坐標
 description.effect.dislocation=使生物隨機傳送
  
 potion.effect.dispel=噬魔藥水
-lingering_potion.effect.dispel=滯留 型噬魔藥水
+lingering_potion.effect.dispel=滯留 噬魔藥水
 splash_potion.effect.dispel=飛濺 噬魔藥水
 tipped_arrow.effect.dispel=噬魔之箭
 effect.dispel=噬魔
@@ -15,7 +15,7 @@ funny.effect.dispel=托瓦爾德之作
 description.effect.dispel=受此藥水影響的生物很有可能從其物品中失去附魔等級
  
 potion.effect.piper=風笛藥水
-lingering_potion.effect.piper=滯留 型風笛藥水
+lingering_potion.effect.piper=滯留 風笛藥水
 splash_potion.effect.piper=飛濺 風笛藥水
 tipped_arrow.effect.piper=風笛之箭
 effect.piper=吸引
@@ -23,7 +23,7 @@ funny.effect.piper=可愛的傢伙
 description.effect.piper=手持食物時，吸引周圍的友善生物
  
 potion.effect.beheading=斬首藥水
-lingering_potion.effect.beheading=滯留 型斬首藥水
+lingering_potion.effect.beheading=滯留 斬首藥水
 splash_potion.effect.beheading=飛濺 斬首藥水
 tipped_arrow.effect.beheading=斬首之箭
 effect.beheading=斬首
@@ -31,7 +31,7 @@ funny.effect.beheading=跳舞，跳舞，直到你死!
 description.effect.beheading=如果一個帶有斬首效果的實體死亡，那麼它掉落頭顱的機率會上升，但頭顱非常脆弱，如果掉在地上會很快消失
  
 potion.effect.fuse=引信藥水
-lingering_potion.effect.fuse=滯留 型引信藥水
+lingering_potion.effect.fuse=滯留 引信藥水
 splash_potion.effect.fuse=飛濺 引信藥水
 tipped_arrow.effect.fuse=引信之箭
 effect.fuse=引信
@@ -39,7 +39,7 @@ funny.effect.fuse=變成苦力怕了
 description.effect.fuse=藥效結束時受到影響的生物將會爆炸
  
 potion.effect.learning=智慧藥水
-lingering_potion.effect.learning=滯留 型智慧藥水
+lingering_potion.effect.learning=滯留 智慧藥水
 splash_potion.effect.learning=飛濺 智慧藥水
 tipped_arrow.effect.learning=智慧之箭
 effect.learning=智慧
@@ -47,7 +47,7 @@ funny.effect.learning=我找到了！
 description.effect.learning=玩家周圍的經驗將會被迅速吸收，且經驗獲得率+10%
  
 potion.effect.sinking=海妖藥水
-lingering_potion.effect.sinking=滯留 型海妖藥水
+lingering_potion.effect.sinking=滯留 海妖藥水
 splash_potion.effect.sinking=飛濺 海妖藥水
 tipped_arrow.effect.sinking=海妖之箭
 effect.sinking=沉沒
@@ -55,7 +55,7 @@ funny.effect.sinking=去找尼奧吧
 description.effect.sinking=使生物沉入海底
  
 potion.effect.recall=回溯藥水
-lingering_potion.effect.recall=滯留 型回溯藥水
+lingering_potion.effect.recall=滯留 回溯藥水
 splash_potion.effect.recall=飛濺 回溯藥水
 tipped_arrow.effect.recall=回溯之箭
 effect.recall=回溯
@@ -63,15 +63,15 @@ funny.effect.recall=我怎麼又回來了？
 description.effect.recall=生物得到該效果後它的位置將被保存.藥水持續時間結束後生物將被傳送回記錄坐標.二級藥水可跨維度傳送
  
 potion.effect.freezing=霜凍藥水
-lingering_potion.effect.freezing=霜凍藥水
-splash_potion.effect.freezing=霜凍藥水
+lingering_potion.effect.freezing=滯留 霜凍藥水
+splash_potion.effect.freezing=飛濺 霜凍藥水
 tipped_arrow.effect.freezing=霜凍之箭
 effect.freezing=霜凍
 funny.effect.freezing=凍住！不許走！
-description.effect.freezing=在生物周圍生成霜凍之冰.這些方塊不會變成水，也不會替換已存在方塊會給生物造成減速效果
+description.effect.freezing=在生物周圍生成霜凍之冰.這些方塊不會變成水，也不會替換已存在方塊，會給生物造成減速效果
  
 potion.effect.combustion=烈焰藥水
-lingering_potion.effect.combustion=滯留 型烈焰藥水
+lingering_potion.effect.combustion=滯留 烈焰藥水
 splash_potion.effect.combustion=飛濺 烈焰藥水
 tipped_arrow.effect.combustion=烈焰之箭
 effect.combustion=浴火
@@ -79,7 +79,7 @@ funny.effect.combustion=燃燒吧
 description.effect.combustion=受到影響的生物會著火，且火會在周圍方塊蔓延
  
 potion.effect.detection=偵查藥水
-lingering_potion.effect.detection=滯留 型偵查藥水
+lingering_potion.effect.detection=滯留 偵查藥水
 splash_potion.effect.detection=飛濺 偵查藥水
 tipped_arrow.effect.detection=偵查之箭
 effect.detection=偵查
@@ -87,7 +87,7 @@ funny.effect.detection=忍者也無處可逃
 description.effect.detection=可標記周圍的生物
  
 potion.effect.magnetism=磁性藥水
-lingering_potion.effect.magnetism=滯留 型磁性藥水
+lingering_potion.effect.magnetism=滯留 磁性藥水
 splash_potion.effect.magnetism=飛濺 磁性藥水
 tipped_arrow.effect.magnetism=磁性之箭
 effect.magnetism=磁性
@@ -95,7 +95,7 @@ funny.effect.magnetism=這些都是我的！
 description.effect.magnetism=擴大玩家可拾取物品的範圍.等級二會移除拾取延遲
  
 potion.effect.pacifism=和平藥水
-lingering_potion.effect.pacifism=滯留 型和平藥水
+lingering_potion.effect.pacifism=滯留 和平藥水
 splash_potion.effect.pacifism=飛濺 和平藥水
 tipped_arrow.effect.pacifism=和平之箭
 effect.pacifism=和平
@@ -103,7 +103,7 @@ funny.effect.pacifism=放鬆一下，兄弟!
 description.effect.pacifism=Level I 可抵禦攻擊傷害.Level II 還可抵御其他傷害
  
 potion.effect.crumbling=地噬藥水
-lingering_potion.effect.crumbling=滯留 型地噬藥水
+lingering_potion.effect.crumbling=滯留 地噬藥水
 splash_potion.effect.crumbling=飛濺 地噬藥水
 tipped_arrow.effect.crumbling=地噬之箭
 effect.crumbling=地噬
@@ -111,7 +111,7 @@ funny.effect.crumbling=臟爪子
 description.effect.crumbling=破壞你腳下的一些方塊
  
 potion.effect.return=歸還藥水
-lingering_potion.effect.return=滯留 型歸還藥水
+lingering_potion.effect.return=滯留 歸還藥水
 splash_potion.effect.return=飛濺 歸還藥水
 tipped_arrow.effect.return=歸還之箭
 effect.return=歸還
@@ -119,7 +119,7 @@ funny.effect.return=回到你的屋子裡
 description.effect.return=傳送到出生點或床上
  
 potion.effect.concentration=寧神藥水
-lingering_potion.effect.concentration=滯留 型寧神藥水
+lingering_potion.effect.concentration=滯留 寧神藥水
 splash_potion.effect.concentration=飛濺 寧神藥水
 tipped_arrow.effect.concentration=寧神之箭
 effect.concentration=寧神
@@ -127,7 +127,7 @@ funny.effect.concentration=現在清楚多了
 description.effect.concentration=移除所有藥水帶來的粒子效果
  
 potion.effect.photosynthesis=光合藥水
-lingering_potion.effect.photosynthesis=滯留 型光合藥水
+lingering_potion.effect.photosynthesis=滯留 光合藥水
 splash_potion.effect.photosynthesis=飛濺 光合藥水
 tipped_arrow.effect.photosynthesis=光合之箭
 effect.photosynthesis=光合
@@ -135,7 +135,7 @@ funny.effect.photosynthesis=來當一株植物
 description.effect.photosynthesis=只要在陽光下就可以回复飢餓值
  
 potion.effect.hurry=急促藥水
-lingering_potion.effect.hurry=滯留 型急促藥水
+lingering_potion.effect.hurry=滯留 急促藥水
 splash_potion.effect.hurry=飛濺 急促藥水
 tipped_arrow.effect.hurry=急促之箭
 effect.hurry=急促
@@ -143,14 +143,14 @@ funny.effect.hurry=是在這裡吧？
 description.effect.hurry=使玩家周圍附帶信息的方塊（tile entities）遊戲時（tick）加速且給玩家帶來飢餓效果
  
 potion.effect.charged=不穩定藥水
-lingering_potion.effect.charged=滯留 型不穩定的藥水
+lingering_potion.effect.charged=滯留 不穩定的藥水
 splash_potion.effect.charged=飛濺 不穩定的藥水
 tipped_arrow.effect.charged=不穩定之箭
 effect.charged=不穩定
 funny.effect.charged=這只是個開始
 description.effect.charged=用來煉製更強力的藥水
 potion.effect.charged2=不穩定藥水
-lingering_potion.effect.charged2=滯留 型不穩定的藥水
+lingering_potion.effect.charged2=滯留 不穩定的藥水
 splash_potion.effect.charged2=飛濺 不穩定的藥水
 tipped_arrow.effect.charged2=不穩定之箭
 effect.charged2=不穩定
@@ -158,7 +158,7 @@ funny.effect.charged2=這只是個開始
 description.effect.charged2=用來煉製更強力的藥水
  
 potion.effect.cheatDeath_quiescent=抗拒藥水
-lingering_potion.effect.cheatDeath_quiescent=滯留 型抗拒藥水
+lingering_potion.effect.cheatDeath_quiescent=滯留 抗拒藥水
 splash_potion.effect.cheatDeath_quiescent=飛濺 抗拒藥水
 tipped_arrow.effect.cheatDeath_quiescent=抗拒之箭
 effect.cheatDeath_quiescent=死亡抗拒
@@ -167,15 +167,15 @@ description.effect.cheatDeath_quiescent=在效果消失之前將無視死亡，�
 effect.cheatDeath_active=死亡時刻
  
 potion.effect.reincarnation=復甦藥水
-lingering_potion.effect.reincarnation=滯留 型複蘇藥水
-splash_potion.effect.reincarnation=飛濺 複蘇藥水
+lingering_potion.effect.reincarnation=滯留 復甦藥水
+splash_potion.effect.reincarnation=飛濺 復甦藥水
 tipped_arrow.effect.reincarnation=復甦之箭
 effect.reincarnation=復甦
 funny.effect.reincarnation=在我下次復活時有什麼在等著我？
 description.effect.reincarnation=死亡時保持所有藥水的效果（除復甦/抗拒）.等級2的藥水可移除所有負面效果且保留本身
  
 potion.effect.gravity=重力藥水
-lingering_potion.effect.gravity=滯留 型重力藥水
+lingering_potion.effect.gravity=滯留 重力藥水
 splash_potion.effect.gravity=飛濺 重力藥水
 tipped_arrow.effect.gravity=重力之箭
 effect.gravity=萬有引力
@@ -183,7 +183,7 @@ funny.effect.gravity=F=G*m1*m2/(r*r)
 description.effect.gravity=在受到此效果影響的實體下方的方塊將會像沙子一樣掉落
  
 potion.effect.leech=吸血藥水
-lingering_potion.effect.leech=滯留 型吸血藥水
+lingering_potion.effect.leech=滯留 吸血藥水
 splash_potion.effect.leech=飛濺 吸血藥水
 tipped_arrow.effect.leech=吸血之箭
 effect.leech=吸血
@@ -191,7 +191,7 @@ funny.effect.leech=血跡是很麻煩的東西
 description.effect.leech=受到此效果影響的生物給其他生物造成傷害時可以治癒自身
  
 potion.effect.sails=七海藥水
-lingering_potion.effect.sails=滯留 型七海藥水
+lingering_potion.effect.sails=滯留 七海藥水
 splash_potion.effect.sails=飛濺 七海藥水
 tipped_arrow.effect.sails=七海之箭
 effect.sails=航行
@@ -199,7 +199,7 @@ funny.effect.sails=划船去吧
 description.effect.sails=玩家可以更快的划船
  
 potion.effect.pain=疼痛藥水
-lingering_potion.effect.pain=滯留 型疼痛藥水
+lingering_potion.effect.pain=滯留 疼痛藥水
 splash_potion.effect.pain=飛濺 疼痛藥水
 tipped_arrow.effect.pain=疼痛之箭
 effect.pain=疼痛
@@ -207,7 +207,7 @@ funny.effect.pain=或許這是不足掛齒的小傷... 但是它現在會要了�
 description.effect.pain=放大你受到的傷害
  
 potion.effect.push=斥力藥水
-lingering_potion.effect.push=滯留 型斥力藥水
+lingering_potion.effect.push=滯留 斥力藥水
 splash_potion.effect.push=飛濺 斥力藥水
 tipped_arrow.effect.push=斥力之箭
 effect.push=斥力
@@ -215,7 +215,7 @@ funny.effect.push=私人空間本身的直觀感受！
 description.effect.push=將實體推離自己
  
 potion.effect.pull=引力藥水
-lingering_potion.effect.pull=滯留 型引力藥水
+lingering_potion.effect.pull=滯留 引力藥水
 splash_potion.effect.pull=飛濺 引力藥水
 tipped_arrow.effect.pull=引力之箭
 effect.pull=引力
